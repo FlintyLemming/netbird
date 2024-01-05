@@ -14,7 +14,7 @@ import (
 	log "github.com/sirupsen/logrus"
 	"golang.org/x/sys/unix"
 
-	nbdns "github.com/netbirdio/netbird/dns"
+	nbdns "github.com/FlintyLemming/netbird/dns"
 )
 
 const (

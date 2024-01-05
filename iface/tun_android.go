@@ -12,7 +12,7 @@ import (
 	"golang.zx2c4.com/wireguard/device"
 	"golang.zx2c4.com/wireguard/tun"
 
-	"github.com/netbirdio/netbird/iface/bind"
+	"github.com/FlintyLemming/netbird/iface/bind"
 )
 
 // ignore the wgTunDevice interface on Android because the creation of the tun device is different on this platform

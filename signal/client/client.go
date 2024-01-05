@@ -5,8 +5,8 @@ import (
 	"io"
 	"strings"
 
-	"github.com/netbirdio/netbird/signal/proto"
-	"github.com/netbirdio/netbird/version"
+	"github.com/FlintyLemming/netbird/signal/proto"
+	"github.com/FlintyLemming/netbird/version"
 
 	"golang.zx2c4.com/wireguard/wgctrl/wgtypes"
 )

@@ -5,8 +5,8 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/netbirdio/netbird/management/server/activity"
-	"github.com/netbirdio/netbird/management/server/status"
+	"github.com/FlintyLemming/netbird/management/server/activity"
+	"github.com/FlintyLemming/netbird/management/server/status"
 )
 
 type GroupLinkError struct {

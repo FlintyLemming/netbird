@@ -14,8 +14,8 @@ import (
 	"github.com/google/gopacket/layers"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/netbirdio/netbird/client/internal/ebpf"
-	ebpfMgr "github.com/netbirdio/netbird/client/internal/ebpf/manager"
+	"github.com/FlintyLemming/netbird/client/internal/ebpf"
+	ebpfMgr "github.com/FlintyLemming/netbird/client/internal/ebpf/manager"
 )
 
 // WGEBPFProxy definition for proxy with EBPF support

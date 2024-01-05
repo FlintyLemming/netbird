@@ -1,7 +1,7 @@
 package client
 
 import (
-	"github.com/netbirdio/netbird/signal/proto"
+	"github.com/FlintyLemming/netbird/signal/proto"
 )
 
 type MockClient struct {

@@ -12,17 +12,17 @@ import (
 	"google.golang.org/grpc/codes"
 	gstatus "google.golang.org/grpc/status"
 
-	"github.com/netbirdio/netbird/client/internal/dns"
-	"github.com/netbirdio/netbird/client/internal/listener"
-	"github.com/netbirdio/netbird/client/internal/peer"
-	"github.com/netbirdio/netbird/client/internal/stdnet"
-	"github.com/netbirdio/netbird/client/ssh"
-	"github.com/netbirdio/netbird/client/system"
-	"github.com/netbirdio/netbird/iface"
-	mgm "github.com/netbirdio/netbird/management/client"
-	mgmProto "github.com/netbirdio/netbird/management/proto"
-	signal "github.com/netbirdio/netbird/signal/client"
-	"github.com/netbirdio/netbird/version"
+	"github.com/FlintyLemming/netbird/client/internal/dns"
+	"github.com/FlintyLemming/netbird/client/internal/listener"
+	"github.com/FlintyLemming/netbird/client/internal/peer"
+	"github.com/FlintyLemming/netbird/client/internal/stdnet"
+	"github.com/FlintyLemming/netbird/client/ssh"
+	"github.com/FlintyLemming/netbird/client/system"
+	"github.com/FlintyLemming/netbird/iface"
+	mgm "github.com/FlintyLemming/netbird/management/client"
+	mgmProto "github.com/FlintyLemming/netbird/management/proto"
+	signal "github.com/FlintyLemming/netbird/signal/client"
+	"github.com/FlintyLemming/netbird/version"
 )
 
 // RunClient with main logic.

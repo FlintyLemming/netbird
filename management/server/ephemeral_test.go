@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	nbpeer "github.com/netbirdio/netbird/management/server/peer"
+	nbpeer "github.com/FlintyLemming/netbird/management/server/peer"
 )
 
 type MockStore struct {

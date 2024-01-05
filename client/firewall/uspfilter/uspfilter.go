@@ -10,8 +10,8 @@ import (
 	"github.com/google/uuid"
 	log "github.com/sirupsen/logrus"
 
-	firewall "github.com/netbirdio/netbird/client/firewall/manager"
-	"github.com/netbirdio/netbird/iface"
+	firewall "github.com/FlintyLemming/netbird/client/firewall/manager"
+	"github.com/FlintyLemming/netbird/iface"
 )
 
 const layerTypeAll = 0

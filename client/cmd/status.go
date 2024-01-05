@@ -14,11 +14,11 @@ import (
 	"google.golang.org/grpc/status"
 	"gopkg.in/yaml.v3"
 
-	"github.com/netbirdio/netbird/client/internal"
-	"github.com/netbirdio/netbird/client/internal/peer"
-	"github.com/netbirdio/netbird/client/proto"
-	"github.com/netbirdio/netbird/util"
-	"github.com/netbirdio/netbird/version"
+	"github.com/FlintyLemming/netbird/client/internal"
+	"github.com/FlintyLemming/netbird/client/internal/peer"
+	"github.com/FlintyLemming/netbird/client/proto"
+	"github.com/FlintyLemming/netbird/util"
+	"github.com/FlintyLemming/netbird/version"
 )
 
 type peerStateDetailOutput struct {

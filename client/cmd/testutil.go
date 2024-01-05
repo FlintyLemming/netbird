@@ -7,18 +7,18 @@ import (
 	"testing"
 	"time"
 
-	"github.com/netbirdio/netbird/management/server/activity"
+	"github.com/FlintyLemming/netbird/management/server/activity"
 
-	"github.com/netbirdio/netbird/util"
+	"github.com/FlintyLemming/netbird/util"
 
 	"google.golang.org/grpc"
 
-	clientProto "github.com/netbirdio/netbird/client/proto"
-	client "github.com/netbirdio/netbird/client/server"
-	mgmtProto "github.com/netbirdio/netbird/management/proto"
-	mgmt "github.com/netbirdio/netbird/management/server"
-	sigProto "github.com/netbirdio/netbird/signal/proto"
-	sig "github.com/netbirdio/netbird/signal/server"
+	clientProto "github.com/FlintyLemming/netbird/client/proto"
+	client "github.com/FlintyLemming/netbird/client/server"
+	mgmtProto "github.com/FlintyLemming/netbird/management/proto"
+	mgmt "github.com/FlintyLemming/netbird/management/server"
+	sigProto "github.com/FlintyLemming/netbird/signal/proto"
+	sig "github.com/FlintyLemming/netbird/signal/server"
 )
 
 func startTestingServices(t *testing.T) string {

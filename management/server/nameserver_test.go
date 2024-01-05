@@ -6,9 +6,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	nbdns "github.com/netbirdio/netbird/dns"
-	"github.com/netbirdio/netbird/management/server/activity"
-	nbpeer "github.com/netbirdio/netbird/management/server/peer"
+	nbdns "github.com/FlintyLemming/netbird/dns"
+	"github.com/FlintyLemming/netbird/management/server/activity"
+	nbpeer "github.com/FlintyLemming/netbird/management/server/peer"
 )
 
 const (

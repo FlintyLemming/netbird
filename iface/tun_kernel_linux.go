@@ -12,8 +12,8 @@ import (
 	log "github.com/sirupsen/logrus"
 	"github.com/vishvananda/netlink"
 
-	"github.com/netbirdio/netbird/iface/bind"
-	"github.com/netbirdio/netbird/sharedsock"
+	"github.com/FlintyLemming/netbird/iface/bind"
+	"github.com/FlintyLemming/netbird/sharedsock"
 )
 
 type tunKernelDevice struct {

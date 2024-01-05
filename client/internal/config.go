@@ -11,16 +11,16 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"github.com/netbirdio/netbird/client/ssh"
-	"github.com/netbirdio/netbird/iface"
-	mgm "github.com/netbirdio/netbird/management/client"
-	"github.com/netbirdio/netbird/util"
+	"github.com/FlintyLemming/netbird/client/ssh"
+	"github.com/FlintyLemming/netbird/iface"
+	mgm "github.com/FlintyLemming/netbird/management/client"
+	"github.com/FlintyLemming/netbird/util"
 )
 
 const (
 	// managementLegacyPortString is the port that was used before by the Management gRPC server.
 	// It is used for backward compatibility now.
-	// NB: hardcoded from github.com/netbirdio/netbird/management/cmd to avoid import
+	// NB: hardcoded from github.com/FlintyLemming/netbird/management/cmd to avoid import
 	managementLegacyPortString = "33073"
 	// DefaultManagementURL points to the NetBird's cloud management endpoint
 	DefaultManagementURL = "https://api.netbird.io:443"

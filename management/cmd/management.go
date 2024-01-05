@@ -29,15 +29,15 @@ import (
 	"google.golang.org/grpc/credentials"
 	"google.golang.org/grpc/keepalive"
 
-	"github.com/netbirdio/netbird/encryption"
-	mgmtProto "github.com/netbirdio/netbird/management/proto"
-	"github.com/netbirdio/netbird/management/server"
-	httpapi "github.com/netbirdio/netbird/management/server/http"
-	"github.com/netbirdio/netbird/management/server/idp"
-	"github.com/netbirdio/netbird/management/server/jwtclaims"
-	"github.com/netbirdio/netbird/management/server/metrics"
-	"github.com/netbirdio/netbird/management/server/telemetry"
-	"github.com/netbirdio/netbird/util"
+	"github.com/FlintyLemming/netbird/encryption"
+	mgmtProto "github.com/FlintyLemming/netbird/management/proto"
+	"github.com/FlintyLemming/netbird/management/server"
+	httpapi "github.com/FlintyLemming/netbird/management/server/http"
+	"github.com/FlintyLemming/netbird/management/server/idp"
+	"github.com/FlintyLemming/netbird/management/server/jwtclaims"
+	"github.com/FlintyLemming/netbird/management/server/metrics"
+	"github.com/FlintyLemming/netbird/management/server/telemetry"
+	"github.com/FlintyLemming/netbird/util"
 )
 
 // ManagementLegacyPort is the port that was used before by the Management gRPC server.

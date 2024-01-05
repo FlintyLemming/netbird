@@ -11,7 +11,7 @@ import (
 	"github.com/yusufpapurcu/wmi"
 	"golang.org/x/sys/windows/registry"
 
-	"github.com/netbirdio/netbird/version"
+	"github.com/FlintyLemming/netbird/version"
 )
 
 type Win32_OperatingSystem struct {

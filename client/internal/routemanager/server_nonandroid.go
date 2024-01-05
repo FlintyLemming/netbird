@@ -9,9 +9,9 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	firewall "github.com/netbirdio/netbird/client/firewall/manager"
-	"github.com/netbirdio/netbird/iface"
-	"github.com/netbirdio/netbird/route"
+	firewall "github.com/FlintyLemming/netbird/client/firewall/manager"
+	"github.com/FlintyLemming/netbird/iface"
+	"github.com/FlintyLemming/netbird/route"
 )
 
 type defaultServerRouter struct {

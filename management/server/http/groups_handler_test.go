@@ -14,13 +14,13 @@ import (
 	"github.com/gorilla/mux"
 	"github.com/magiconair/properties/assert"
 
-	"github.com/netbirdio/netbird/management/server"
-	"github.com/netbirdio/netbird/management/server/http/api"
-	"github.com/netbirdio/netbird/management/server/http/util"
-	"github.com/netbirdio/netbird/management/server/jwtclaims"
-	"github.com/netbirdio/netbird/management/server/mock_server"
-	nbpeer "github.com/netbirdio/netbird/management/server/peer"
-	"github.com/netbirdio/netbird/management/server/status"
+	"github.com/FlintyLemming/netbird/management/server"
+	"github.com/FlintyLemming/netbird/management/server/http/api"
+	"github.com/FlintyLemming/netbird/management/server/http/util"
+	"github.com/FlintyLemming/netbird/management/server/jwtclaims"
+	"github.com/FlintyLemming/netbird/management/server/mock_server"
+	nbpeer "github.com/FlintyLemming/netbird/management/server/peer"
+	"github.com/FlintyLemming/netbird/management/server/status"
 )
 
 var TestPeers = map[string]*nbpeer.Peer{

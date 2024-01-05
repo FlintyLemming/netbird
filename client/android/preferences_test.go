@@ -4,7 +4,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/netbirdio/netbird/client/internal"
+	"github.com/FlintyLemming/netbird/client/internal"
 )
 
 func TestPreferences_DefaultValues(t *testing.T) {

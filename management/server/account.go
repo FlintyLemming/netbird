@@ -23,15 +23,15 @@ import (
 
 	"github.com/netbirdio/management-integrations/additions"
 
-	"github.com/netbirdio/netbird/base62"
-	nbdns "github.com/netbirdio/netbird/dns"
-	"github.com/netbirdio/netbird/management/server/account"
-	"github.com/netbirdio/netbird/management/server/activity"
-	"github.com/netbirdio/netbird/management/server/idp"
-	"github.com/netbirdio/netbird/management/server/jwtclaims"
-	nbpeer "github.com/netbirdio/netbird/management/server/peer"
-	"github.com/netbirdio/netbird/management/server/status"
-	"github.com/netbirdio/netbird/route"
+	"github.com/FlintyLemming/netbird/base62"
+	nbdns "github.com/FlintyLemming/netbird/dns"
+	"github.com/FlintyLemming/netbird/management/server/account"
+	"github.com/FlintyLemming/netbird/management/server/activity"
+	"github.com/FlintyLemming/netbird/management/server/idp"
+	"github.com/FlintyLemming/netbird/management/server/jwtclaims"
+	nbpeer "github.com/FlintyLemming/netbird/management/server/peer"
+	"github.com/FlintyLemming/netbird/management/server/status"
+	"github.com/FlintyLemming/netbird/route"
 )
 
 const (

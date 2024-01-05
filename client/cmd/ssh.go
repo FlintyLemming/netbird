@@ -12,9 +12,9 @@ import (
 	log "github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
 
-	"github.com/netbirdio/netbird/client/internal"
-	nbssh "github.com/netbirdio/netbird/client/ssh"
-	"github.com/netbirdio/netbird/util"
+	"github.com/FlintyLemming/netbird/client/internal"
+	nbssh "github.com/FlintyLemming/netbird/client/ssh"
+	"github.com/FlintyLemming/netbird/util"
 )
 
 var (

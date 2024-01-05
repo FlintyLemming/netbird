@@ -1,6 +1,6 @@
 <p align="center">
  <strong>:hatching_chick: New Release! Self-hosting in under 5 min.</strong>
-  <a href="https://github.com/netbirdio/netbird#quickstart-with-self-hosted-netbird">
+  <a href="https://github.com/FlintyLemming/netbird#quickstart-with-self-hosted-netbird">
        Learn more
      </a>   
 </p>
@@ -10,7 +10,7 @@
   <img width="234" src="docs/media/logo-full.png"/>
 </p>
   <p>
-     <a href="https://github.com/netbirdio/netbird/blob/main/LICENSE">
+     <a href="https://github.com/FlintyLemming/netbird/blob/main/LICENSE">
        <img src="https://img.shields.io/badge/license-BSD--3-blue" />
      </a> 
    <a href="https://www.codacy.com/gh/netbirdio/netbird/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=netbirdio/netbird&amp;utm_campaign=Badge_Grade"><img src="https://app.codacy.com/project/badge/Grade/e3013d046aec44cdb7462c8673b00976"/></a>
@@ -88,7 +88,7 @@ Follow the [Advanced guide with a custom identity provider](https://docs.netbird
 **Steps**
 - Download and run the installation script:
 ```bash
-export NETBIRD_DOMAIN=netbird.example.com; curl -fsSL https://github.com/netbirdio/netbird/releases/latest/download/getting-started-with-zitadel.sh | bash
+export NETBIRD_DOMAIN=netbird.example.com; curl -fsSL https://github.com/FlintyLemming/netbird/releases/latest/download/getting-started-with-zitadel.sh | bash
 ```
 - Once finished, you can manage the resources via `docker-compose`
 
@@ -113,7 +113,7 @@ See a complete [architecture overview](https://docs.netbird.io/about-netbird/how
 -  [NetBird installer script](https://github.com/physk/netbird-installer)
 
 **Note**: The `main` branch may be in an *unstable or even broken state* during development.
-For stable versions, see [releases](https://github.com/netbirdio/netbird/releases).
+For stable versions, see [releases](https://github.com/FlintyLemming/netbird/releases).
 
 ### Support acknowledgement
 

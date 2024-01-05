@@ -7,8 +7,8 @@ import (
 	"os"
 	"path"
 
-	"github.com/netbirdio/netbird/management/server"
-	"github.com/netbirdio/netbird/util"
+	"github.com/FlintyLemming/netbird/management/server"
+	"github.com/FlintyLemming/netbird/util"
 	log "github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
 )

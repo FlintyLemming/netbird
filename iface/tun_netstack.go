@@ -10,8 +10,8 @@ import (
 	log "github.com/sirupsen/logrus"
 	"golang.zx2c4.com/wireguard/device"
 
-	"github.com/netbirdio/netbird/iface/bind"
-	"github.com/netbirdio/netbird/iface/netstack"
+	"github.com/FlintyLemming/netbird/iface/bind"
+	"github.com/FlintyLemming/netbird/iface/netstack"
 )
 
 type tunNetstackDevice struct {

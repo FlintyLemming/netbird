@@ -11,9 +11,9 @@ import (
 	"github.com/kardianos/service"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/netbirdio/netbird/client/proto"
-	"github.com/netbirdio/netbird/client/server"
-	"github.com/netbirdio/netbird/util"
+	"github.com/FlintyLemming/netbird/client/proto"
+	"github.com/FlintyLemming/netbird/client/server"
+	"github.com/FlintyLemming/netbird/util"
 	"github.com/spf13/cobra"
 	"google.golang.org/grpc"
 )

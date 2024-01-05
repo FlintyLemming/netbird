@@ -7,9 +7,9 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/netbirdio/netbird/client/internal/peer"
-	"github.com/netbirdio/netbird/iface"
-	"github.com/netbirdio/netbird/route"
+	"github.com/FlintyLemming/netbird/client/internal/peer"
+	"github.com/FlintyLemming/netbird/iface"
+	"github.com/FlintyLemming/netbird/route"
 )
 
 const minRangeBits = 7

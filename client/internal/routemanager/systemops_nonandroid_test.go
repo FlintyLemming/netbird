@@ -16,7 +16,7 @@ import (
 	"github.com/stretchr/testify/require"
 	"golang.zx2c4.com/wireguard/wgctrl/wgtypes"
 
-	"github.com/netbirdio/netbird/iface"
+	"github.com/FlintyLemming/netbird/iface"
 )
 
 func TestAddRemoveRoutes(t *testing.T) {

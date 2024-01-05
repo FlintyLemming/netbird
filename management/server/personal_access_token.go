@@ -10,7 +10,7 @@ import (
 	b "github.com/hashicorp/go-secure-stdlib/base62"
 	"github.com/rs/xid"
 
-	"github.com/netbirdio/netbird/base62"
+	"github.com/FlintyLemming/netbird/base62"
 )
 
 const (

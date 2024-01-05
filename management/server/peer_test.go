@@ -9,7 +9,7 @@ import (
 	"github.com/rs/xid"
 	"golang.zx2c4.com/wireguard/wgctrl/wgtypes"
 
-	nbpeer "github.com/netbirdio/netbird/management/server/peer"
+	nbpeer "github.com/FlintyLemming/netbird/management/server/peer"
 )
 
 func TestPeer_LoginExpired(t *testing.T) {

@@ -127,7 +127,7 @@ checked out and set up:
 4. Add the original NetBird repository as `upstream` to your forked repository
 
    ```
-   git remote add upstream https://github.com/netbirdio/netbird.git
+   git remote add upstream https://github.com/FlintyLemming/netbird.git
    ```
 
 5. Install all Go dependencies:

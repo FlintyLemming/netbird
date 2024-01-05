@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	nbdns "github.com/netbirdio/netbird/dns"
+	nbdns "github.com/FlintyLemming/netbird/dns"
 )
 
 type hostManager interface {

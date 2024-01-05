@@ -11,7 +11,7 @@ import (
 	"github.com/google/nftables/expr"
 	log "github.com/sirupsen/logrus"
 
-	firewall "github.com/netbirdio/netbird/client/firewall/manager"
+	firewall "github.com/FlintyLemming/netbird/client/firewall/manager"
 )
 
 const (

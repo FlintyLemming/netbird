@@ -2,7 +2,7 @@
 
 package test
 
-import firewall "github.com/netbirdio/netbird/client/firewall/manager"
+import firewall "github.com/FlintyLemming/netbird/client/firewall/manager"
 
 var (
 	InsertRuleTestCases = []struct {

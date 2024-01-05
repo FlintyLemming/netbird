@@ -9,7 +9,7 @@ import (
 	"github.com/spf13/cobra"
 	"google.golang.org/grpc"
 
-	"github.com/netbirdio/netbird/client/internal"
+	"github.com/FlintyLemming/netbird/client/internal"
 )
 
 type program struct {

@@ -8,10 +8,10 @@ import (
 	"github.com/netbirdio/management-integrations/additions"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/netbirdio/netbird/management/proto"
-	"github.com/netbirdio/netbird/management/server/activity"
-	nbpeer "github.com/netbirdio/netbird/management/server/peer"
-	"github.com/netbirdio/netbird/management/server/status"
+	"github.com/FlintyLemming/netbird/management/proto"
+	"github.com/FlintyLemming/netbird/management/server/activity"
+	nbpeer "github.com/FlintyLemming/netbird/management/server/peer"
+	"github.com/FlintyLemming/netbird/management/server/status"
 )
 
 // PolicyUpdateOperationType operation type

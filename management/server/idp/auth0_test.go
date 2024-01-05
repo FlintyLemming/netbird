@@ -11,7 +11,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/netbirdio/netbird/management/server/telemetry"
+	"github.com/FlintyLemming/netbird/management/server/telemetry"
 
 	"github.com/golang-jwt/jwt"
 	"github.com/stretchr/testify/assert"

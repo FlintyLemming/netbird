@@ -4,7 +4,7 @@
 package iface
 
 import (
-	"github.com/netbirdio/netbird/iface/bind"
+	"github.com/FlintyLemming/netbird/iface/bind"
 )
 
 type wgTunDevice interface {

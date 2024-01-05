@@ -6,8 +6,8 @@ import (
 	"context"
 	"fmt"
 
-	firewall "github.com/netbirdio/netbird/client/firewall/manager"
-	"github.com/netbirdio/netbird/iface"
+	firewall "github.com/FlintyLemming/netbird/client/firewall/manager"
+	"github.com/FlintyLemming/netbird/iface"
 )
 
 func newServerRouter(context.Context, *iface.WGIface, firewall.Manager) (serverRouter, error) {

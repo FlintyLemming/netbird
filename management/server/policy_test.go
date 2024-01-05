@@ -8,7 +8,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"golang.org/x/exp/slices"
 
-	nbpeer "github.com/netbirdio/netbird/management/server/peer"
+	nbpeer "github.com/FlintyLemming/netbird/management/server/peer"
 )
 
 func TestAccount_getPeersByPolicy(t *testing.T) {

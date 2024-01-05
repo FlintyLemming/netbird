@@ -3,7 +3,7 @@ package dns
 import (
 	"fmt"
 
-	nbdns "github.com/netbirdio/netbird/dns"
+	nbdns "github.com/FlintyLemming/netbird/dns"
 )
 
 // MockServer is the mock instance of a dns server

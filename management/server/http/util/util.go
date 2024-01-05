@@ -10,7 +10,7 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/netbirdio/netbird/management/server/status"
+	"github.com/FlintyLemming/netbird/management/server/status"
 )
 
 type ErrorResponse struct {

@@ -7,12 +7,12 @@ import (
 
 	"github.com/gorilla/mux"
 
-	"github.com/netbirdio/netbird/management/server"
-	"github.com/netbirdio/netbird/management/server/account"
-	"github.com/netbirdio/netbird/management/server/http/api"
-	"github.com/netbirdio/netbird/management/server/http/util"
-	"github.com/netbirdio/netbird/management/server/jwtclaims"
-	"github.com/netbirdio/netbird/management/server/status"
+	"github.com/FlintyLemming/netbird/management/server"
+	"github.com/FlintyLemming/netbird/management/server/account"
+	"github.com/FlintyLemming/netbird/management/server/http/api"
+	"github.com/FlintyLemming/netbird/management/server/http/util"
+	"github.com/FlintyLemming/netbird/management/server/jwtclaims"
+	"github.com/FlintyLemming/netbird/management/server/status"
 )
 
 // AccountsHandler is a handler that handles the server.Account HTTP endpoints

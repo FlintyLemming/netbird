@@ -12,11 +12,11 @@ import (
 	"google.golang.org/grpc/codes"
 	gstatus "google.golang.org/grpc/status"
 
-	"github.com/netbirdio/netbird/client/internal"
-	"github.com/netbirdio/netbird/client/internal/peer"
-	"github.com/netbirdio/netbird/client/proto"
-	"github.com/netbirdio/netbird/client/system"
-	"github.com/netbirdio/netbird/util"
+	"github.com/FlintyLemming/netbird/client/internal"
+	"github.com/FlintyLemming/netbird/client/internal/peer"
+	"github.com/FlintyLemming/netbird/client/proto"
+	"github.com/FlintyLemming/netbird/client/system"
+	"github.com/FlintyLemming/netbird/util"
 )
 
 const (

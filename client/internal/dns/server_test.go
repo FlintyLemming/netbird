@@ -14,12 +14,12 @@ import (
 	log "github.com/sirupsen/logrus"
 	"golang.zx2c4.com/wireguard/wgctrl/wgtypes"
 
-	"github.com/netbirdio/netbird/client/firewall/uspfilter"
-	"github.com/netbirdio/netbird/client/internal/stdnet"
-	nbdns "github.com/netbirdio/netbird/dns"
-	"github.com/netbirdio/netbird/formatter"
-	"github.com/netbirdio/netbird/iface"
-	pfmock "github.com/netbirdio/netbird/iface/mocks"
+	"github.com/FlintyLemming/netbird/client/firewall/uspfilter"
+	"github.com/FlintyLemming/netbird/client/internal/stdnet"
+	nbdns "github.com/FlintyLemming/netbird/dns"
+	"github.com/FlintyLemming/netbird/formatter"
+	"github.com/FlintyLemming/netbird/iface"
+	pfmock "github.com/FlintyLemming/netbird/iface/mocks"
 )
 
 type mocWGIface struct {

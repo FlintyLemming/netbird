@@ -10,7 +10,7 @@ import (
 	"google.golang.org/grpc/codes"
 	gstatus "google.golang.org/grpc/status"
 
-	"github.com/netbirdio/netbird/client/internal"
+	"github.com/FlintyLemming/netbird/client/internal"
 )
 
 // OAuthFlow represents an interface for authorization using different OAuth 2.0 flows

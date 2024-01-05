@@ -3,8 +3,8 @@ package server
 import (
 	"net/url"
 
-	"github.com/netbirdio/netbird/management/server/idp"
-	"github.com/netbirdio/netbird/util"
+	"github.com/FlintyLemming/netbird/management/server/idp"
+	"github.com/FlintyLemming/netbird/util"
 )
 
 type (

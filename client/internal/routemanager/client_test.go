@@ -4,7 +4,7 @@ import (
 	"net/netip"
 	"testing"
 
-	"github.com/netbirdio/netbird/route"
+	"github.com/FlintyLemming/netbird/route"
 )
 
 func TestGetBestrouteFromStatuses(t *testing.T) {

@@ -2,7 +2,7 @@
 
 package dns
 
-import "github.com/netbirdio/netbird/iface"
+import "github.com/FlintyLemming/netbird/iface"
 
 // WGIface defines subset methods of interface required for manager
 type WGIface interface {

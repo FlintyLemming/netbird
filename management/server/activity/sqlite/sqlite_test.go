@@ -7,7 +7,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/netbirdio/netbird/management/server/activity"
+	"github.com/FlintyLemming/netbird/management/server/activity"
 )
 
 func TestNewSQLiteStore(t *testing.T) {

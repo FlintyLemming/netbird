@@ -14,7 +14,7 @@ import (
 	"github.com/miekg/dns"
 	log "github.com/sirupsen/logrus"
 
-	nbversion "github.com/netbirdio/netbird/version"
+	nbversion "github.com/FlintyLemming/netbird/version"
 )
 
 const (

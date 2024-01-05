@@ -14,13 +14,13 @@ import (
 	log "github.com/sirupsen/logrus"
 	"golang.zx2c4.com/wireguard/wgctrl/wgtypes"
 
-	"github.com/netbirdio/netbird/client/internal/stdnet"
-	"github.com/netbirdio/netbird/client/internal/wgproxy"
-	"github.com/netbirdio/netbird/iface"
-	"github.com/netbirdio/netbird/iface/bind"
-	signal "github.com/netbirdio/netbird/signal/client"
-	sProto "github.com/netbirdio/netbird/signal/proto"
-	"github.com/netbirdio/netbird/version"
+	"github.com/FlintyLemming/netbird/client/internal/stdnet"
+	"github.com/FlintyLemming/netbird/client/internal/wgproxy"
+	"github.com/FlintyLemming/netbird/iface"
+	"github.com/FlintyLemming/netbird/iface/bind"
+	signal "github.com/FlintyLemming/netbird/signal/client"
+	sProto "github.com/FlintyLemming/netbird/signal/proto"
+	"github.com/FlintyLemming/netbird/version"
 )
 
 const (

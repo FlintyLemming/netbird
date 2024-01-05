@@ -5,7 +5,7 @@ import (
 
 	"github.com/google/gopacket"
 
-	firewall "github.com/netbirdio/netbird/client/firewall/manager"
+	firewall "github.com/FlintyLemming/netbird/client/firewall/manager"
 )
 
 // Rule to handle management of rules

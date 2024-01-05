@@ -8,24 +8,24 @@ import (
 	"testing"
 	"time"
 
-	"github.com/netbirdio/netbird/management/server/activity"
+	"github.com/FlintyLemming/netbird/management/server/activity"
 
-	"github.com/netbirdio/netbird/client/system"
+	"github.com/FlintyLemming/netbird/client/system"
 
 	log "github.com/sirupsen/logrus"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/netbirdio/netbird/encryption"
-	mgmtProto "github.com/netbirdio/netbird/management/proto"
-	mgmt "github.com/netbirdio/netbird/management/server"
-	"github.com/netbirdio/netbird/management/server/mock_server"
+	"github.com/FlintyLemming/netbird/encryption"
+	mgmtProto "github.com/FlintyLemming/netbird/management/proto"
+	mgmt "github.com/FlintyLemming/netbird/management/server"
+	"github.com/FlintyLemming/netbird/management/server/mock_server"
 
 	"golang.zx2c4.com/wireguard/wgctrl/wgtypes"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"github.com/netbirdio/netbird/util"
+	"github.com/FlintyLemming/netbird/util"
 )
 
 const ValidKey = "A2C8E62B-38F5-4553-B31E-DD66C696CEBB"

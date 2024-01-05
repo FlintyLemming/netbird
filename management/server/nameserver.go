@@ -8,9 +8,9 @@ import (
 	"github.com/miekg/dns"
 	"github.com/rs/xid"
 
-	nbdns "github.com/netbirdio/netbird/dns"
-	"github.com/netbirdio/netbird/management/server/activity"
-	"github.com/netbirdio/netbird/management/server/status"
+	nbdns "github.com/FlintyLemming/netbird/dns"
+	"github.com/FlintyLemming/netbird/management/server/activity"
+	"github.com/FlintyLemming/netbird/management/server/status"
 )
 
 const domainPattern = `^(?i)[a-z0-9]+([\-\.]{1}[a-z0-9]+)*\.[a-z]{2,}$`

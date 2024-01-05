@@ -8,7 +8,7 @@ import (
 
 	"github.com/pion/transport/v3"
 
-	"github.com/netbirdio/netbird/iface/netstack"
+	"github.com/FlintyLemming/netbird/iface/netstack"
 )
 
 // NewWGIFace Creates a new WireGuard interface instance

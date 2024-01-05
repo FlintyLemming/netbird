@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/netbirdio/netbird/management/server/telemetry"
+	"github.com/FlintyLemming/netbird/management/server/telemetry"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

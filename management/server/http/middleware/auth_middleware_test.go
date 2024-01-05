@@ -9,8 +9,8 @@ import (
 
 	"github.com/golang-jwt/jwt"
 
-	"github.com/netbirdio/netbird/management/server"
-	"github.com/netbirdio/netbird/management/server/jwtclaims"
+	"github.com/FlintyLemming/netbird/management/server"
+	"github.com/FlintyLemming/netbird/management/server/jwtclaims"
 )
 
 const (

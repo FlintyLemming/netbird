@@ -3,8 +3,8 @@ package server
 import (
 	"context"
 	"fmt"
-	"github.com/netbirdio/netbird/signal/peer"
-	"github.com/netbirdio/netbird/signal/proto"
+	"github.com/FlintyLemming/netbird/signal/peer"
+	"github.com/FlintyLemming/netbird/signal/proto"
 	log "github.com/sirupsen/logrus"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/metadata"

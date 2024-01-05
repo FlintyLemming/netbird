@@ -21,9 +21,9 @@ import (
 
 	"github.com/cenkalti/backoff/v4"
 
-	"github.com/netbirdio/netbird/client/system"
-	"github.com/netbirdio/netbird/encryption"
-	"github.com/netbirdio/netbird/management/proto"
+	"github.com/FlintyLemming/netbird/client/system"
+	"github.com/FlintyLemming/netbird/encryption"
+	"github.com/FlintyLemming/netbird/management/proto"
 )
 
 // ConnStateNotifier is a wrapper interface of the status recorders

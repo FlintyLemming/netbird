@@ -12,7 +12,7 @@ import (
 	"github.com/golang-jwt/jwt"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/netbirdio/netbird/management/server/telemetry"
+	"github.com/FlintyLemming/netbird/management/server/telemetry"
 )
 
 const profileFields = "id,displayName,mail,userPrincipalName"

@@ -7,8 +7,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"google.golang.org/protobuf/types/known/timestamppb"
 
-	"github.com/netbirdio/netbird/client/proto"
-	"github.com/netbirdio/netbird/version"
+	"github.com/FlintyLemming/netbird/client/proto"
+	"github.com/FlintyLemming/netbird/version"
 )
 
 func init() {

@@ -7,12 +7,12 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	firewall "github.com/netbirdio/netbird/client/firewall/manager"
-	"github.com/netbirdio/netbird/client/internal/listener"
-	"github.com/netbirdio/netbird/client/internal/peer"
-	"github.com/netbirdio/netbird/iface"
-	"github.com/netbirdio/netbird/route"
-	"github.com/netbirdio/netbird/version"
+	firewall "github.com/FlintyLemming/netbird/client/firewall/manager"
+	"github.com/FlintyLemming/netbird/client/internal/listener"
+	"github.com/FlintyLemming/netbird/client/internal/peer"
+	"github.com/FlintyLemming/netbird/iface"
+	"github.com/FlintyLemming/netbird/route"
+	"github.com/FlintyLemming/netbird/version"
 )
 
 // Manager is a route manager interface

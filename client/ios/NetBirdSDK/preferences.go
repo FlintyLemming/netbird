@@ -1,7 +1,7 @@
 package NetBirdSDK
 
 import (
-	"github.com/netbirdio/netbird/client/internal"
+	"github.com/FlintyLemming/netbird/client/internal"
 )
 
 // Preferences export a subset of the internal config for gomobile

@@ -11,10 +11,10 @@ import (
 	"github.com/google/nftables"
 	log "github.com/sirupsen/logrus"
 
-	nbiptables "github.com/netbirdio/netbird/client/firewall/iptables"
-	firewall "github.com/netbirdio/netbird/client/firewall/manager"
-	nbnftables "github.com/netbirdio/netbird/client/firewall/nftables"
-	"github.com/netbirdio/netbird/client/firewall/uspfilter"
+	nbiptables "github.com/FlintyLemming/netbird/client/firewall/iptables"
+	firewall "github.com/FlintyLemming/netbird/client/firewall/manager"
+	nbnftables "github.com/FlintyLemming/netbird/client/firewall/nftables"
+	"github.com/FlintyLemming/netbird/client/firewall/uspfilter"
 )
 
 const (

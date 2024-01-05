@@ -11,7 +11,7 @@ import (
 	"golang.zx2c4.com/wireguard/device"
 	"golang.zx2c4.com/wireguard/tun"
 
-	"github.com/netbirdio/netbird/iface/bind"
+	"github.com/FlintyLemming/netbird/iface/bind"
 )
 
 type tunDevice struct {

@@ -10,16 +10,16 @@ import (
 	sync2 "sync"
 	"time"
 
-	"github.com/netbirdio/netbird/management/server/activity"
+	"github.com/FlintyLemming/netbird/management/server/activity"
 
 	"google.golang.org/grpc/credentials/insecure"
 
-	"github.com/netbirdio/netbird/management/server"
+	"github.com/FlintyLemming/netbird/management/server"
 
 	pb "github.com/golang/protobuf/proto" //nolint
 	log "github.com/sirupsen/logrus"
 
-	"github.com/netbirdio/netbird/encryption"
+	"github.com/FlintyLemming/netbird/encryption"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
@@ -27,8 +27,8 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/keepalive"
 
-	mgmtProto "github.com/netbirdio/netbird/management/proto"
-	"github.com/netbirdio/netbird/util"
+	mgmtProto "github.com/FlintyLemming/netbird/management/proto"
+	"github.com/FlintyLemming/netbird/util"
 )
 
 const (

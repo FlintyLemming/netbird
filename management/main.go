@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/netbirdio/netbird/management/cmd"
+	"github.com/FlintyLemming/netbird/management/cmd"
 	"os"
 )
 

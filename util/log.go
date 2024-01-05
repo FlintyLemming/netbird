@@ -7,7 +7,7 @@ import (
 	log "github.com/sirupsen/logrus"
 	"gopkg.in/natefinch/lumberjack.v2"
 
-	"github.com/netbirdio/netbird/formatter"
+	"github.com/FlintyLemming/netbird/formatter"
 )
 
 // InitLog parses and sets log-level input

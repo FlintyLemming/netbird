@@ -9,7 +9,7 @@ import (
 	log "github.com/sirupsen/logrus"
 	"golang.zx2c4.com/wireguard/wgctrl/wgtypes"
 
-	"github.com/netbirdio/netbird/iface/bind"
+	"github.com/FlintyLemming/netbird/iface/bind"
 )
 
 const (

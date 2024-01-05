@@ -11,10 +11,10 @@ import (
 	"github.com/golang-jwt/jwt"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/netbirdio/netbird/management/server"
-	"github.com/netbirdio/netbird/management/server/http/util"
-	"github.com/netbirdio/netbird/management/server/jwtclaims"
-	"github.com/netbirdio/netbird/management/server/status"
+	"github.com/FlintyLemming/netbird/management/server"
+	"github.com/FlintyLemming/netbird/management/server/http/util"
+	"github.com/FlintyLemming/netbird/management/server/jwtclaims"
+	"github.com/FlintyLemming/netbird/management/server/status"
 )
 
 // GetAccountFromPATFunc function

@@ -1,7 +1,7 @@
 package peer
 
 import (
-	"github.com/netbirdio/netbird/signal/proto"
+	"github.com/FlintyLemming/netbird/signal/proto"
 	log "github.com/sirupsen/logrus"
 	"sync"
 	"time"

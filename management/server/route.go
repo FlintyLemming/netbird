@@ -6,10 +6,10 @@ import (
 
 	"github.com/rs/xid"
 
-	"github.com/netbirdio/netbird/management/proto"
-	"github.com/netbirdio/netbird/management/server/activity"
-	"github.com/netbirdio/netbird/management/server/status"
-	"github.com/netbirdio/netbird/route"
+	"github.com/FlintyLemming/netbird/management/proto"
+	"github.com/FlintyLemming/netbird/management/server/activity"
+	"github.com/FlintyLemming/netbird/management/server/status"
+	"github.com/FlintyLemming/netbird/route"
 )
 
 // GetRoute gets a route object from account and route IDs

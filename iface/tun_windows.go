@@ -11,7 +11,7 @@ import (
 	"golang.zx2c4.com/wireguard/tun"
 	"golang.zx2c4.com/wireguard/windows/tunnel/winipcfg"
 
-	"github.com/netbirdio/netbird/iface/bind"
+	"github.com/FlintyLemming/netbird/iface/bind"
 )
 
 type tunDevice struct {

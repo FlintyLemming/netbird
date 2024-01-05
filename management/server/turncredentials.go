@@ -10,7 +10,7 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/netbirdio/netbird/management/proto"
+	"github.com/FlintyLemming/netbird/management/proto"
 )
 
 // TURNCredentialsManager used to manage TURN credentials

@@ -3,8 +3,8 @@ package client
 import (
 	"io"
 
-	"github.com/netbirdio/netbird/client/system"
-	"github.com/netbirdio/netbird/management/proto"
+	"github.com/FlintyLemming/netbird/client/system"
+	"github.com/FlintyLemming/netbird/management/proto"
 	"golang.zx2c4.com/wireguard/wgctrl/wgtypes"
 )
 

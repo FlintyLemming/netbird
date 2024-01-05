@@ -9,7 +9,7 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	"github.com/netbirdio/netbird/util"
+	"github.com/FlintyLemming/netbird/util"
 )
 
 var _ = Describe("Client", func() {

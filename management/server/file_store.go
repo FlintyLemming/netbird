@@ -10,11 +10,11 @@ import (
 	"github.com/rs/xid"
 	log "github.com/sirupsen/logrus"
 
-	nbpeer "github.com/netbirdio/netbird/management/server/peer"
-	"github.com/netbirdio/netbird/management/server/status"
-	"github.com/netbirdio/netbird/management/server/telemetry"
+	nbpeer "github.com/FlintyLemming/netbird/management/server/peer"
+	"github.com/FlintyLemming/netbird/management/server/status"
+	"github.com/FlintyLemming/netbird/management/server/telemetry"
 
-	"github.com/netbirdio/netbird/util"
+	"github.com/FlintyLemming/netbird/util"
 )
 
 // storeFileName Store file name. Stored in the datadir

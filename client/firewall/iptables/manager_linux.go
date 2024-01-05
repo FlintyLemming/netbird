@@ -9,8 +9,8 @@ import (
 	"github.com/coreos/go-iptables/iptables"
 	log "github.com/sirupsen/logrus"
 
-	firewall "github.com/netbirdio/netbird/client/firewall/manager"
-	"github.com/netbirdio/netbird/iface"
+	firewall "github.com/FlintyLemming/netbird/client/firewall/manager"
+	"github.com/FlintyLemming/netbird/iface"
 )
 
 // Manager of iptables firewall

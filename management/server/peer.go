@@ -8,13 +8,13 @@ import (
 	"github.com/netbirdio/management-integrations/additions"
 	"github.com/rs/xid"
 
-	"github.com/netbirdio/netbird/management/server/activity"
-	nbpeer "github.com/netbirdio/netbird/management/server/peer"
-	"github.com/netbirdio/netbird/management/server/status"
+	"github.com/FlintyLemming/netbird/management/server/activity"
+	nbpeer "github.com/FlintyLemming/netbird/management/server/peer"
+	"github.com/FlintyLemming/netbird/management/server/status"
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/netbirdio/netbird/management/proto"
+	"github.com/FlintyLemming/netbird/management/proto"
 )
 
 // PeerSync used as a data object between the gRPC API and AccountManager on Sync request.

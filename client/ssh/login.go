@@ -2,7 +2,7 @@ package ssh
 
 import (
 	"fmt"
-	"github.com/netbirdio/netbird/util"
+	"github.com/FlintyLemming/netbird/util"
 	"net"
 	"net/netip"
 	"os/exec"

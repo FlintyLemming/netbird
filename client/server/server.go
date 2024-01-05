@@ -6,8 +6,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/netbirdio/netbird/client/internal/auth"
-	"github.com/netbirdio/netbird/client/system"
+	"github.com/FlintyLemming/netbird/client/internal/auth"
+	"github.com/FlintyLemming/netbird/client/system"
 
 	log "github.com/sirupsen/logrus"
 	"google.golang.org/grpc/codes"
@@ -15,10 +15,10 @@ import (
 	gstatus "google.golang.org/grpc/status"
 	"google.golang.org/protobuf/types/known/timestamppb"
 
-	"github.com/netbirdio/netbird/client/internal"
-	"github.com/netbirdio/netbird/client/internal/peer"
-	"github.com/netbirdio/netbird/client/proto"
-	"github.com/netbirdio/netbird/version"
+	"github.com/FlintyLemming/netbird/client/internal"
+	"github.com/FlintyLemming/netbird/client/internal/peer"
+	"github.com/FlintyLemming/netbird/client/proto"
+	"github.com/FlintyLemming/netbird/version"
 )
 
 // Server for service control.

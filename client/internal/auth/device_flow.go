@@ -10,7 +10,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/netbirdio/netbird/client/internal"
+	"github.com/FlintyLemming/netbird/client/internal"
 )
 
 // HostedGrantType grant type for device flow on Hosted

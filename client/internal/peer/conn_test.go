@@ -8,9 +8,9 @@ import (
 	"github.com/magiconair/properties/assert"
 	"github.com/pion/stun/v2"
 
-	"github.com/netbirdio/netbird/client/internal/stdnet"
-	"github.com/netbirdio/netbird/client/internal/wgproxy"
-	"github.com/netbirdio/netbird/iface"
+	"github.com/FlintyLemming/netbird/client/internal/stdnet"
+	"github.com/FlintyLemming/netbird/client/internal/wgproxy"
+	"github.com/FlintyLemming/netbird/iface"
 )
 
 var connConf = ConnConfig{

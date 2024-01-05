@@ -20,8 +20,8 @@ import (
 	"google.golang.org/grpc/metadata"
 	"google.golang.org/grpc/status"
 
-	"github.com/netbirdio/netbird/encryption"
-	"github.com/netbirdio/netbird/signal/proto"
+	"github.com/FlintyLemming/netbird/encryption"
+	"github.com/FlintyLemming/netbird/signal/proto"
 )
 
 const defaultSendTimeout = 5 * time.Second

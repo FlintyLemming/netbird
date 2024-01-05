@@ -10,8 +10,8 @@ import (
 	"github.com/coreos/go-iptables/iptables"
 	"github.com/stretchr/testify/require"
 
-	fw "github.com/netbirdio/netbird/client/firewall/manager"
-	"github.com/netbirdio/netbird/iface"
+	fw "github.com/FlintyLemming/netbird/client/firewall/manager"
+	"github.com/FlintyLemming/netbird/iface"
 )
 
 // iFaceMapper defines subset methods of interface required for manager

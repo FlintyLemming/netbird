@@ -9,7 +9,7 @@ import (
 
 	v1 "github.com/TheJumpCloud/jcapi-go/v1"
 
-	"github.com/netbirdio/netbird/management/server/telemetry"
+	"github.com/FlintyLemming/netbird/management/server/telemetry"
 )
 
 const (

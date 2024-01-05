@@ -142,7 +142,7 @@ func enableIPForwarding() error {
 	}
 
 	// check if it is already enabled
-	// see more: https://github.com/netbirdio/netbird/issues/872
+	// see more: https://github.com/FlintyLemming/netbird/issues/872
 	if len(bytes) > 0 && bytes[0] == 49 {
 		return nil
 	}

@@ -6,11 +6,11 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/netbirdio/netbird/management/server"
-	"github.com/netbirdio/netbird/management/server/http/util"
-	"github.com/netbirdio/netbird/management/server/status"
+	"github.com/FlintyLemming/netbird/management/server"
+	"github.com/FlintyLemming/netbird/management/server/http/util"
+	"github.com/FlintyLemming/netbird/management/server/status"
 
-	"github.com/netbirdio/netbird/management/server/jwtclaims"
+	"github.com/FlintyLemming/netbird/management/server/jwtclaims"
 )
 
 // GetUser function defines a function to fetch user from Account by jwtclaims.AuthorizationClaims

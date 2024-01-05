@@ -10,17 +10,17 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/netbirdio/netbird/management/server/http/api"
-	"github.com/netbirdio/netbird/management/server/status"
+	"github.com/FlintyLemming/netbird/management/server/http/api"
+	"github.com/FlintyLemming/netbird/management/server/status"
 
 	"github.com/gorilla/mux"
 
-	"github.com/netbirdio/netbird/management/server/jwtclaims"
+	"github.com/FlintyLemming/netbird/management/server/jwtclaims"
 
 	"github.com/magiconair/properties/assert"
 
-	"github.com/netbirdio/netbird/management/server"
-	"github.com/netbirdio/netbird/management/server/mock_server"
+	"github.com/FlintyLemming/netbird/management/server"
+	"github.com/FlintyLemming/netbird/management/server/mock_server"
 )
 
 func initPoliciesTestData(policies ...*server.Policy) *Policies {

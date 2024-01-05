@@ -7,11 +7,11 @@ import (
 
 	"github.com/golang/mock/gomock"
 
-	"github.com/netbirdio/netbird/client/firewall"
-	"github.com/netbirdio/netbird/client/firewall/manager"
-	"github.com/netbirdio/netbird/client/internal/acl/mocks"
-	"github.com/netbirdio/netbird/iface"
-	mgmProto "github.com/netbirdio/netbird/management/proto"
+	"github.com/FlintyLemming/netbird/client/firewall"
+	"github.com/FlintyLemming/netbird/client/firewall/manager"
+	"github.com/FlintyLemming/netbird/client/internal/acl/mocks"
+	"github.com/FlintyLemming/netbird/iface"
+	mgmProto "github.com/FlintyLemming/netbird/management/proto"
 )
 
 func TestDefaultManager(t *testing.T) {
