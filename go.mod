@@ -1,4 +1,4 @@
-module github.com/netbirdio/netbird
+module github.com/FlintyLemming/netbird
 
 go 1.20
 
